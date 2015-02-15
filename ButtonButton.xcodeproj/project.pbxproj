@@ -13,6 +13,7 @@
 		C23978E81A9065D80075F2E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23978E71A9065D80075F2E2 /* Images.xcassets */; };
 		C23978EB1A9065D80075F2E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C23978E91A9065D80075F2E2 /* LaunchScreen.xib */; };
 		C23978F71A9065D80075F2E2 /* ButtonButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23978F61A9065D80075F2E2 /* ButtonButtonTests.swift */; };
+		C28325351A9068F70038DE66 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C28325341A9068F70038DE66 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C23978F01A9065D80075F2E2 /* ButtonButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23978F51A9065D80075F2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C23978F61A9065D80075F2E2 /* ButtonButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonButtonTests.swift; sourceTree = "<group>"; };
+		C28325341A9068F70038DE66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		C23978D21A9065D80075F2E2 = {
 			isa = PBXGroup;
 			children = (
+				C28325341A9068F70038DE66 /* README.md */,
 				C23978DD1A9065D80075F2E2 /* ButtonButton */,
 				C23978F31A9065D80075F2E2 /* ButtonButtonTests */,
 				C23978DC1A9065D80075F2E2 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28325351A9068F70038DE66 /* README.md in Sources */,
 				C23978E31A9065D80075F2E2 /* ViewController.swift in Sources */,
 				C23978E11A9065D80075F2E2 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				C23978FC1A9065D80075F2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C23978FD1A9065D80075F2E2 /* Build configuration list for PBXNativeTarget "ButtonButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				C23978FF1A9065D80075F2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
